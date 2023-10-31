@@ -1,4 +1,4 @@
-# QeteshSkinCare
+<!--POTTERY HOUSE-->
 
 Hola! Este es mi proyecto final del curso de Diseño Web con HTML, CSS y JS en CEI.
 
