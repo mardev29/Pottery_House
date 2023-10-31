@@ -171,17 +171,18 @@ html{
 /*--------------- FORMULARIO ---------------*/
 
 .Formulario {
+    width: 80%;
     background-color: var(--color-buttons);
     margin: 10rem 20rem;
     border-radius: 1rem;
 }
 
 .Form-form{
-    width: 50vw;
+    width: 10vw;
     height: 30rem;
     margin: 4rem 5rem;
     background-color: var(--color-buttons);
-    padding: 2rem 12em;
+    padding: 2rem 6em;
     color: #ffffff;
     font-family: var(--font-main);
 }
@@ -263,13 +264,14 @@ html{
 
 @media (max-width: 3000px) {
     .Form-form{
-        padding: 2rem 50rem;
-        width: 20vw;
+        padding: 2rem 20rem;
+        width: 10vw;
         height: 70vh;
+        border-radius: 1rem;
     }
 
     .Formulario {
-        margin: 10rem 5rem;
+        margin: 10rem 10rem;
     }
 
     .Input-submit{
