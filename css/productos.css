@@ -53,6 +53,7 @@ html{
     scroll-behavior: smooth;
 }
 /*--------------- HEADER Y NAV ---------------*/
+/*--------------- SE REPITE COMO EN INDEX. En las etiquetas de header vamos a ver como con flex se dividen en dos apartados, uno con el logo y el otro con el nav ---------------*/
 
 .Header {
     width: 100%;
@@ -131,6 +132,8 @@ html{
     fill: var(--color-primary);
 }
 
+
+/*--------------- RESPONSIVE ---------------*/
 @media (max-width:1500px) {
     .Header {
         position: static;
@@ -169,6 +172,7 @@ html{
 }
 
 /*--------------- PRODUCTOS ---------------*/
+/*--------------- GRID DE LOS PRODUCTOS DISPONIBLES EN LA WEB ---------------*/
 .Columns {
     width: 100%;
     background-color: var(--color-secondary);
@@ -236,6 +240,7 @@ html{
 .Img:active{
     transform: scale(.9);
 }
+/*--------------- RESPONSIVE PRODUCTOS ---------------*/
 
 @media (max-width: 1500px) {
     .Columns-wrapped {
@@ -271,6 +276,7 @@ html{
     width: 20%;
 }
 
+/*--------------- SE REPITE FOOTER ---------------*/
 /*--------------- FOOTER ---------------*/
 
 .Footer {
@@ -325,6 +331,9 @@ html{
     width: 50%;
     fill: var(--color-primary);
 }
+
+
+/*--------------- RESPONSIVE FOOTER ---------------*/
 
 @media (max-width:765px) {
     .Footer {
