@@ -362,12 +362,12 @@ html{
 /*---- MAPA -----*/
 /*--------------- DATOS DE LOCALIZACIÓN DE TIENDA FÍSICA ---------------*/
 
-.Mapa-section{
+.Mapa{
     max-width: 100%;
     background-color: var(--color-buttons);
 }
 
-.Mapa-info{
+.Mapa-frame{
     padding: 2rem;
 /*   background-color: blanchedalmond;*/
     display: flex;
@@ -387,21 +387,21 @@ iframe{
 
 }
 
-.Info-contacto{
+.Contacto{
 /*    background-color: rebeccapurple;*/
     max-width: vw;
     padding: 1rem 0rem;
     text-align: center;
 }
 
-.Info-h3{
+.Section-h3{
     font-family: var(--font-titles);
     font-size: 3.5vh;
     color: white;
     padding: 1rem .5rem 0 0;
 }
 
-.Info-p{
+.Section-p{
     font-family: var(--font-body);
     font-size: 2vh;
     color: white;
@@ -409,11 +409,11 @@ iframe{
 }
 /*--------------- RESPONSIVE---------------*/
 @media (max-width: 800px) {
-    .Mapa-info {
+    .Mapa-frame {
         display: block;
     }
 
-    .Info-contacto{
+    .Contacto{
         max-width: 100vw;
         text-align: start;
         padding-left: 2rem;
@@ -426,7 +426,7 @@ iframe{
     
     }
 
-    .Info-contacto{
+    .Contacto{
             max-width: 100vw;
             text-align: start;
             padding-left: 2rem;
